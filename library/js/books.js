@@ -72,9 +72,8 @@ function render() {
     pages.innerHTML = book.pages;
 
     cell = row.insertCell();
-    let removeBtn = document.createElement("INPUT");
-    removeBtn.type = "button";
-    removeBtn.value = "Delete";
+    let removeBtn = document.createElement("BUTTON");
+    removeBtn.innerHTML = "Delete";
     removeBtn.setAttribute("onclick", "remove(this);")
     cell.appendChild(removeBtn);
   });
