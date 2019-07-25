@@ -60,10 +60,10 @@ input[type='text'], input[type='number'], input[type='submit'] {
 }
 
 .close {
-	position: absolute;
-	right: 22%;
-	top: 20%;
-	font-size: 30px;
+  position: absolute;
+  top: 14%;
+  left: 77%;
+  font-size: 30px;
 }
 
 .close:hover {
